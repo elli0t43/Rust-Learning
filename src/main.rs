@@ -15,4 +15,7 @@ fn main() {
     print::run(); // calling the run function from print.rs file
                   // variables::var_run();
     scalar_types::integer_types_run();
+    scalar_types::integer_overflow_run();
+    scalar_types::float_types_run();
+    scalar_types::number_seperator_run();
 }
