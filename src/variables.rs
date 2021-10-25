@@ -1,4 +1,5 @@
 pub fn var_run() {
+    // with let keyword we can define
     let my_name = "TutorialsPoint"; // string type
     let random_float = 4.5; // float type
     let random_boolean = true; // boolean type

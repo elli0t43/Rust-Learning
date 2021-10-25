@@ -1,5 +1,6 @@
 // we can import modules with "mod" keyword
 mod print;
+mod scalar_types;
 mod variables;
 
 // our main function
@@ -12,5 +13,6 @@ mod variables;
 fn main() {
     println!("Hello, world!"); // do keep in mind that println! isn't a function its a macro.
     print::run(); // calling the run function from print.rs file
-    variables::var_run();
+                  // variables::var_run();
+    scalar_types::integer_types_run();
 }
