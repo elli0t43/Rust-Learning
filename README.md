@@ -22,6 +22,11 @@ cargo build
 ```bash
 cargo build --release
 ```
+6. To check your code and make sure it compiles but doesn’t produce an executable,
+```bash
+cargo check
+```
+
 ### What is TOML ?
 This file is in the TOML (Tom’s Obvious, Minimal Language) format, which is Cargo’s configuration format.
 
