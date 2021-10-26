@@ -82,3 +82,17 @@ pub fn number_seperator_run() {
     let int_with_separator = 50_000;
     println!("int value {}", int_with_separator);
 }
+
+/*
+-------------------------------------------------------------
+# BOOLEAN
+Boolean types have two possible values – true or false. Use the bool keyword to declare a boolean variable.
+
+*/
+
+pub fn boolean_types_run() {
+    let bool1: bool = true;
+    let bool2: bool = false;
+    println!("Bool1 is: {}", bool1);
+    println!("Bool2 is: {}", bool2);
+}

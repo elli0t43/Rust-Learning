@@ -18,4 +18,5 @@ fn main() {
     scalar_types::integer_overflow_run();
     scalar_types::float_types_run();
     scalar_types::number_seperator_run();
+    scalar_types::boolean_types_run();
 }

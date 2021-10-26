@@ -9,15 +9,11 @@ fn main() {
     /* The :: syntax in the ::new line indicates that new is an associated function of the String type.
     This new function creates a new */
     let mut guess = String::new();
-    
     // Now we’ll call the stdin function from the io module
     /* If we hadn’t put the use std::io line at the beginning of the program,
-    we could have written this function call as std::io::stdin */   
-    
+    we could have written this function call as std::io::stdin */
     io::stdin()
         .read_line(&mut guess)
         .expect("Failed to read line");
-        .
-
     println!("You guessed: {}", guess);
 }
