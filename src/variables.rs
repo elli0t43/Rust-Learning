@@ -1,3 +1,13 @@
+/*
+# NAMEING A VARIABLE
+Rules for Naming a Variable
+    1. The name of a variable can be composed of letters, digits, and the underscore character.
+
+    2. It must begin with either a letter or an underscore.
+
+    3. Upper and lowercase letters are distinct because Rust is case-sensitive.
+*/
+
 pub fn var_run() {
     // with let keyword we can define
     let my_name = "TutorialsPoint"; // string type

@@ -96,3 +96,17 @@ pub fn boolean_types_run() {
     println!("Bool1 is: {}", bool1);
     println!("Bool2 is: {}", bool2);
 }
+/*
+-------------------------------------------------------------
+# CHARACTERS
+The character data type in Rust supports numbers, alphabets, Unicode and special characters. Use the char keyword to declare a variable of character data type. Rust’s char type represents a Unicode Scalar Value, which means it can represent a lot more than just ASCII.
+Unicode Scalar Values range from U+0000 to U+D7FF and U+E000 to U+10FFFF inclusive.
+*/
+pub fn character_types_run() {
+    let first_character = '@'; //default
+    let alphabet: char = 'A';
+    let emoji: char = '😁';
+    println!("first_character is: {}", first_character);
+    println!("alphabet is : {}", alphabet);
+    println!("emoji is: {}", emoji);
+}
