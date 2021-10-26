@@ -1,4 +1,5 @@
 // we can import modules with "mod" keyword
+mod contstants;
 mod print;
 mod scalar_types;
 mod variables;
@@ -20,4 +21,5 @@ fn main() {
     scalar_types::number_seperator_run();
     scalar_types::boolean_types_run();
     scalar_types::character_types_run();
+    contstants::constants_types_run();
 }
