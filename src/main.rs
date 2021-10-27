@@ -22,4 +22,5 @@ fn main() {
     scalar_types::boolean_types_run();
     scalar_types::character_types_run();
     contstants::constants_types_run();
+    contstants::shadowing_var_char_run();
 }

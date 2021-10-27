@@ -16,3 +16,15 @@ pub fn constants_types_run() {
     println!("user limit is {}", USER_LIMIT); //Display value of the constant
     println!("pi value is {}", PI); //Display value of the constant
 }
+
+/*
+Shadowing of Variables and Constants
+Rust allows programmers to declare variables with the same name.
+In such a case, the new variable overrides the previous variable.
+*/
+pub fn shadowing_var_char_run() {
+    let salary = 100.00;
+    let salary = 1.50;
+    // reads first salary
+    println!("The value of salary is :{}", salary);
+}
