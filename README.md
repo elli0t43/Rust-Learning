@@ -1,6 +1,15 @@
 # Rust-Learning
 Beginner Rust Learning, I'll update it alongside my rust learning.
 
+### Installation
+```bash
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+or 
+```bash
+$ curl https://sh.rustup.rs -sSf | sh
+```
+
 ### Basic Rust Commands
 1. To create a project inside the existing directory, 
 ```bash
