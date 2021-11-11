@@ -46,6 +46,7 @@ cargo build --release
 ```bash
 cargo check
 ```
+>Warning: Rust dones't use Pascal Case ( PascalCase ) or Camel Case ( camelCase ), Rust uses Snake Case ( snake_case )  
 
 <details>
 <summary><b>What is TOML ?</b></summary>
