@@ -1,6 +1,17 @@
 # Rust-Learning
 Beginner Rust Learning, I'll update it alongside my rust learning.
 
+### What is Rust?
+Rust is a low-level statically-typed multi-paradigm programming language that’s focused on safety and performance.
+
+Rust solves problems that C/C++ has been struggling with for a long time, such as memory errors and building concurrent programs.
+
+It has three main benefits:
+
+1. better memory safety due to the compiler;
+2. easier concurrency due to the data ownership model that prevents data races;
+3. zero-cost abstractions.
+
 ### Installation
 ```bash
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
