@@ -4,6 +4,7 @@ mod print;
 mod scalar_types;
 mod variables;
 mod number_guessing_game;
+mod assert_eq_macro;
 
 // our main function
 // The fn syntax declares a new function, the parentheses,
@@ -25,4 +26,5 @@ fn main() {
     //contstants::constants_types_run();
     //contstants::shadowing_var_char_run();
     number_guessing_game::number_guessing_game_run();
+    assert_eq_macro::assert_eq_macro_run();
 }
