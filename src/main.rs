@@ -25,6 +25,6 @@ fn main() {
     //scalar_types::character_types_run();
     //contstants::constants_types_run();
     //contstants::shadowing_var_char_run();
-    number_guessing_game::number_guessing_game_run();
-    assert_eq_macro::assert_eq_macro_run();
+    //number_guessing_game::number_guessing_game_run();
+    //assert_eq_macro::assert_eq_macro_run();
 }
