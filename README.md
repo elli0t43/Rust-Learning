@@ -46,6 +46,8 @@ cargo build --release
 ```bash
 cargo check
 ```
+If you want to know more about cargo commands, refer [here.](https://doc.rust-lang.org/cargo/commands/cargo.html)
+
 >Warning: Rust dones't use Pascal Case ( PascalCase ) or Camel Case ( camelCase ), Rust uses Snake Case ( snake_case )  
 
 <details>
