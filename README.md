@@ -32,7 +32,7 @@ cargo new NameOfTheProject
 ```
 3. To compile and it without rustc utility,
 ```bash
-carge run
+cargo run
 ```
 4. To compile it without running, 
 ```bash
