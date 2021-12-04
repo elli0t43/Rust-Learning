@@ -34,11 +34,11 @@ cargo new NameOfTheProject
 ```bash
 cargo run
 ```
-4. To compile it without running, 
+4. To compile and create the executable file, (unoptimized/dev version) 
 ```bash
 cargo build
 ```
-5. To build for production, 
+5. To build for production, (Optimized release version)
 ```bash
 cargo build --release
 ```
