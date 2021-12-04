@@ -30,7 +30,7 @@ cargo init
 ```bash
 cargo new NameOfTheProject
 ```
-3. To compile and it without rustc utility,
+3. To compile it and run without creating the executable file,
 ```bash
 cargo run
 ```
